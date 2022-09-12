@@ -1,17 +1,17 @@
 #include <stdio.h>
-int main(void) {
+int main(void)
+{
 	int a;
 	long int b;
 	long long int c;
 	char d;
 	float f;
 
-	// Size of Variables
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
-	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
-	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
-	printf("Size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
-	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	printf("Size of a char: %lu 1 byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu 4 byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu 4 byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu 8 bytes(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu 4 byte(s)\n", (unsigned long)sizeof(f));
 
-	 return (0);
+	return (0);
 }
